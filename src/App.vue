@@ -1,7 +1,7 @@
 <script>
 export default {
     data() {
-      return { count: 0 }
+      return {AppTitle: 'La mia prima app con Vite!' }
     },
 };
 </script>
@@ -9,14 +9,8 @@ export default {
 <template>
   <div>
     <h1>
-      Template Vite
+      {{AppTitle}}
     </h1>
-    <p>
-      {{count}}
-    </p>
-    <button @click="count++">
-      Incrementa counter
-    </button>
   </div>
 </template>
 
